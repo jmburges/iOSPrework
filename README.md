@@ -8,7 +8,7 @@ completed all of the beginner tutorials then go through it again hitting the
 intermediate, and then advanced items.
 
 If you have questions on any of the material, or think one of the items linked
-isn't the best representation of a topic, raise an issue! If you have aditions
+isn't the best representation of a topic, raise an issue! If you have additions
 you'd like to add send me a pull request.
 
 Also get
@@ -76,7 +76,7 @@ Beginner
 
 
 
-OO Principles
+Object Orientated Principles
 =============
 
 The iOS ecosystem relies heavily on a few Object Orientated principles. The
@@ -105,7 +105,7 @@ Advanced
 Core Data
 =========
 
-Core Data is a persistant data store. It is not a database. This is seriously
+Core Data is a persistent data store. It is not a database. This is seriously
 one of the most confusing technologies in the iOS ecosystem, but it is
 something *you must learn*. I the integrating with APIs section you'll learn
 even more about Core Data and how to save both locally and sync up to the
@@ -258,7 +258,7 @@ Beginner
 Customizing UIKit
 ===================
 AutoLayout is the new way of defining how your layouts work based on different
-rotations and screensizes. You are lucky because you will learn AutoLayout from
+rotations and screen sizes. You are lucky because you will learn AutoLayout from
 the very beginning but sadly The Big Nerd Ranch book doesn't include information on AutoLayout because it's
 an iOS 5 book. I've included supplementary AutoLayout tutorials because of the
 lack of information in the Big Nerd Ranch book.
@@ -300,7 +300,7 @@ Advanced
 Hardware
 ========
 The iPhone/iPad have a pretty cool set of hardware. Let your creativity flow
-with the different hardware features. This is completly different then what
+with the different hardware features. This is completely different then what
 you've done on a computer.
 
 Beginner
@@ -316,7 +316,7 @@ Core Animation allows you to access to graphics card to some awesome animations
 and transformations without sacrificing speed. The graphics card was designed
 to do this and it does a great job. With that great power comes great
 responsibility though. iPhone and iPad users expect fluid animations.
-Thankfully, many standard animations you are used o seeing are actually built
+Thankfully, many standard animations you are used to seeing are actually built
 into the iOS SDK and are super easy to integrate.
 
 Beginner
