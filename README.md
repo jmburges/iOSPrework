@@ -2,6 +2,13 @@ This list comes from keeping track of what has been useful and not useful from
 the past few years of learning iOS on my own. I'm compiling this to be a sort
 of reference guide for the students in my upcoming class at [The Flatiron School](http://flatironschool.com/iOScurriculum.html "Flatiron School iOS Curriculum").
 
+There are also a ton of great video content from
+[Stanford](https://itunes.apple.com/us/course/coding-together-developing/id593208016
+"Stanford iTunes U Link") and
+[Treehouse](http://teamtreehouse.com/library/ios-development "Treehouse iOS
+webpage") but their progression doesn't need anything like this guide. I HIGHLY recommend
+the Stanford class.
+
 The goal here is for a student to achieve gradually increasing layers of quality. I recommend going
 through the guide in order following the beginner tutorials first. Once you've
 completed all of the beginner tutorials then go through it again hitting the
