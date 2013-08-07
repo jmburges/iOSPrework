@@ -1,4 +1,4 @@
-verview
+Overview
 ========
 
 This list comes from keeping track of what has been useful and not useful from
@@ -128,6 +128,8 @@ Beginner
 
   - [Beginning Storyboard in iOS
     5](http://www.raywenderlich.com/5138/beginning-storyboards-in-ios-5-part-1 "Beginning Storyboards in iOS 5")
+      - Learn how storyborads work. This is a great way to get up and running
+        writing an app super quickly
   - Big Nerd Ranch Chapter 1
   - Big Nerd Ranch Chapter 3
   - Big Nerd Ranch Chapter pages 91-100
@@ -157,6 +159,7 @@ Beginner
 --------
  - [Objective C
 Primer](http://developer.apple.com/library/mac/#referencelibrary/GettingStarted/Learning_Objective-C_A_Primer/index.html "Learning Objectiv-C: A Primer")
+    - Apple's awesome intro into the Objective-C language
  - Big Nerd Ranch Chapter 2
 
 Advanced
@@ -192,9 +195,13 @@ Beginner
 
   - [iOS Design Patterns:
     Delegation](http://blog.teamtreehouse.com/ios-design-patterns-delegation-part-2-2
+      - Learn the Delegation Pattern. This is used all over the place in iOS.
+        For example Core Location, TableViews, MapKit, etc.
     "iOS Design Patters: Delegations")
   - [Intro to
     Protocols](http://iosdevelopertips.com/cocoa/introduction-to-protocols.html "Intro to Protocols")
+      - Learn Protocols. These are the things in between the < and > >. Yet
+        again, they are everywhere
 
 Advanced
 --------
@@ -235,7 +242,7 @@ Beginner
   - BNR Chapter 16
   - [Core Data Tutorial for iOS: Getting
     Started](http://www.raywenderlich.com/934/core-data-tutorial-for-ios-getting-started "Core Data Tutorial for iOS: Getting Started")
-    - Make sure you read all three parts. The NSFetchedResultsController part
+    - Practical example on how make a Core Data app. Make sure you read all three parts. The NSFetchedResultsController part
       is super important and how you connect Core Data to UITableViews.
 
 Advanced
@@ -249,6 +256,8 @@ Libraries
 
   - [MagicalRecord](https://github.com/magicalpanda/MagicalRecord "Magical
     Record GitHub Page")
+    - Library that automates a lot of the common CoreData stuff and implements
+      some best practices.
 
 
 Reference
@@ -288,9 +297,13 @@ Beginner
   - [Mattt Thompson: Build an iOS App in 20 Minutes with Rails and
     AFIncrementalStore](https://www.youtube.com/watch?v=8wrFn6flYdQ "Youtube
     Video of a Mattt Thompson Talk on using Helios")
+      - Video from a recent conference where Mattt Thompson walks you through
+        developing a simple ToDo app with a server side backedn
   - [Integrate Twitter and Facebook Sharing in Your
     App](http://www.appcoda.com/ios-programming-101-integrate-twitter-and-facebook-sharing-in-ios-6/
     "Integrate Twitter and Facebook Sharing in Your App")
+      - These are built in to iOS. This tutorial allows you to share your
+        content really quickly to Facebook and Twitter
 
 Intermediate
 ------------
@@ -398,9 +411,12 @@ Beginner
 
   - [Apple Human Interface
     Guidelines](http://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html "Apple Human Interface Guidelines")
+      - Apple posts thei guidelines on good mobile design. You should follow
+        these somewhat closely as it provides a consistant UI from app to app
   - [Starter's Guide to iOS
     Design](http://taybenlor.com/2013/05/21/designing-for-ios.html "Starter's
     Guide to iOS Design")
+      - Absolutely incredible guide on how to think about mobile design.
 
 
 Customizing UIKit
@@ -436,8 +452,11 @@ Beginner
 
   - [Beginning Auto
     Layout](http://www.raywenderlich.com/20881/beginning-auto-layout-part-1-of-2 "Beginning Auto Layout")
+      - Auto Layout is how you can lay out UI elements with differing screen
+        sizes. This guide walks you through that.
   - [Customizing
     UIKit](http://mobile.tutsplus.com/tutorials/iphone/ios-sdk-uikit-theme-customization/ "Customizing UIKit")
+      - Some common UIKit customziations and how to do them.
   - Big Nerd Ranch Chapter 24
   - Big Nerd Ranch Chapter 6
   - Big Nerd Ranch Chapter 7
@@ -499,6 +518,8 @@ Beginner
   - [UIView Transition
     Effects](http://i.ndigo.com.br/2012/05/ios-uiview-transition-effects/ "UI
     Transition Effects")
+      - Learn the different ways you can transition form view to view and the
+        reasons why you choose those transitions.
   - BNR Chapter 22
   - BNR Chapter 23
 
@@ -520,5 +541,8 @@ Advanced
 
   - [14 Essential Xcode Tips and
     Tricks](http://mobileorchard.com/14-essential-xcode-tips-tricks-and-resources-for-iphone-devs/)
-  - [XVim](https://github.com/JugglerShu/XVim "XVim") - Make XCode more like
-    Vim
+    - After you've used Xcode for a while, here are some extra tips I find
+        useful
+  - [XVim](https://github.com/JugglerShu/XVim "XVim") 
+    - I use vim on the command line. If you're like me, this will make your life
+      so. much. better
