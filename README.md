@@ -40,7 +40,8 @@ items shouldn't take you more that 40 hours. If you already have prior
 knowledge feel free to skip sections you feel comfortable with. 
 
 The Advanced and Referece/Library sections are for you to use once your feel
-comfortable with your skills. Don't worry about them for now. once you look into
+comfortable with your skills. I really recommend completing all the beginner 
+materials before moving on to the advanced resources though. Once you look into
 developing apps that require the topics you can return here and find out more
 information and hopefully some links to start your research with.
 
@@ -107,9 +108,8 @@ your requested changes.
 Basic iOS
 =========
 
-This will get you going to write super simple app. It's not going to look
-pretty, but it'll work. After following the beginner tutorials you should be
-able to make a super simple ToDo list app. 
+This will get you going to write a super simple app. It's not going to look
+pretty, but it'll work.  
 
 ###App
 Super simple ToDo list app. It should have a table with todos in it.
@@ -530,9 +530,9 @@ Advanced
     iOS](http://shop.oreilly.com/product/0636920020356.do "Graphics and
     Animation on iOS")
 
-XCode
+Xcode
 =====
-XCode is what you develop iOS apps in. A craftsman knows his/her tools. Make
+Xcode is what you develop iOS apps in. A craftsman knows his/her tools. Make
 sure you know yours. This is mostly for reference. No learning objectives or
 app progression here, just some great tips!
 
