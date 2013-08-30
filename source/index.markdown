@@ -24,9 +24,7 @@ for the Web Development course at The Flatiron School if you're completely new
 Students learn in a plethora of ways. If you are an auditory learner there is 
 also a ton of great video content from
 [Stanford](https://itunes.apple.com/us/course/coding-together-developing/id593208016
-"Stanford iTunes U Link") and
-[Treehouse](http://teamtreehouse.com/library/ios-development "Treehouse iOS
-webpage") but their progression is pretty obvious so I didn't create a guide for
+"Stanford iTunes U Link") but the progression is pretty obvious so I didn't create a guide for
 that. I HIGHLY recommend the Stanford class.
 
 There is an infinite amount of stuff to learn on iOS. This is a list of what
@@ -42,11 +40,10 @@ This guide is separated out into the different big topics of iOS development.
 I am including advanced topics here mostly for completeness and for reference
 down the line. 
 
-Flatiron School Students, your job is to *go through each section, in order,
-following just the beginner items*. Don't worry about the reference or library
-items. These are all things we will discuss and use in class. Just the beginner
-items shouldn't take you more that 40 hours. If you already have prior
-knowledge feel free to skip sections you feel comfortable with. 
+If you currently know very little, start with the beginner section and do
+all the topics. This should get you up to speed with iOS development and really
+I would just start writing code! Don't start looking into the advanced topics
+until you find a topic you *need* to learn.
 
 The Advanced and Referece/Library sections are for you to use once your feel
 comfortable with your skills. I really recommend completing all the beginner 
@@ -63,6 +60,15 @@ Last, the Learning Objectives are what I expect you to understand after reading
 the beginner materials. Remember the advanced materials are just for deep dives
 into topics!
 
+###Flatiron School Students
+
+Flatiron School Students, your job is to *go through each section, in order,
+following just the beginner items*. Don't worry about the reference or library
+items. These are all things we will discuss and use in class. Just the beginner
+items shouldn't take you more that 40 hours. If you already have prior
+knowledge feel free to skip sections you feel comfortable with. Don't worry
+about the app that I list in each section. If you have time then go ahead and
+try and develop the todo list app, but it isn't required.
 Setup
 -----
 
