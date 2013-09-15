@@ -73,7 +73,7 @@ Setup
 -----
 
 I tried to use as many free resources as possible but ultimately you have to
-spend some money. You'll need the[Big Nerd Ranch iOS Programming
+spend some money. You'll need the [Big Nerd Ranch iOS Programming
 book](http://www.amazon.com/iOS-Programming-Ranch-Edition-Guides/dp/0321821521/ref=sr_1_1?ie=UTF8&qid=1375802712&sr=8-1&keywords=big+nerd+ranch+iOS 
 "BNR iOS Programming Amazon Link"). It's the book I reference throughout the
 guide and is truly a fantastic book.
