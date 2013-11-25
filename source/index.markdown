@@ -172,10 +172,10 @@ Try and rewrite your Todo list using objects and encapsulation.
 
 Beginner
 --------
- - [Objective C
-Primer](http://developer.apple.com/library/mac/#referencelibrary/GettingStarted/Learning_Objective-C_A_Primer/index.html "Learning Objectiv-C: A Primer")
-    - Apple's awesome intro into the Objective-C language
- - Big Nerd Ranch Chapter 2
+  - [Intro to Objective-C](http://rypress.com/tutorials/objective-c/introduction.html)
+    - Read through the protocols section
+    - Read the Data Types Section
+  - Big Nerd Ranch Chapter 2
 
 Advanced
 ---------
