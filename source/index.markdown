@@ -10,16 +10,14 @@ footer: true
 Overview
 ========
 
+### NOW UPDATED FOR IOS 7 AND XCODE 5
+
 This list comes from keeping track of what has been useful and not useful from
 the past few years of learning iOS on my own. I'm compiling this to be a sort
 of reference guide for the students in my upcoming class at [The Flatiron School](http://flatironschool.com/iOScurriculum.html "Flatiron School iOS Curriculum").
 
 This is meant to get you up to speed with development from no prior iOS
-experience. None of this covers the basics of computing/development though. I don't
-really think of Objective-C/iOS as a beginners language and highly recommend the
-[prework](http://prework.flatironschool.com/ "Flatiron School Web Dev Prework")
-for the Web Development course at The Flatiron School if you're completely new
-  to development.
+experience. None of this covers the basics of computing/development though. 
 
 Students learn in a plethora of ways. If you are an auditory learner there is 
 also a ton of great video content from
@@ -63,20 +61,23 @@ into topics!
 ###Flatiron School Students
 
 Flatiron School Students, your job is to *go through each section, in order,
-following just the beginner items*. Don't worry about the reference or library
-items. These are all things we will discuss and use in class. Just the beginner
-items shouldn't take you more that 40 hours. If you already have prior
-knowledge feel free to skip sections you feel comfortable with. Don't worry
-about the app that I list in each section. If you have time then go ahead and
-try and develop the todo list app, but it isn't required.
+following just the beginner items*. The *ADVANCED SECTION* at the end is if you
+are really interested and want to keep learning, but isn't required. Don't
+worry about the reference or library items. These are all things we will
+discuss and use in class. Just the beginner items shouldn't take you more that
+40 hours. If you already have prior knowledge feel free to skip sections you
+feel comfortable with. Don't worry about the app that I list in each section.
+If you have time then go ahead and try and develop the todo list app, but it
+isn't required. 
+
 Setup
 -----
 
 I tried to use as many free resources as possible but ultimately you have to
-spend some money. You'll need the [Big Nerd Ranch iOS Programming
-book](http://www.amazon.com/iOS-Programming-Ranch-Edition-Guides/dp/0321821521/ref=sr_1_1?ie=UTF8&qid=1375802712&sr=8-1&keywords=big+nerd+ranch+iOS 
-"BNR iOS Programming Amazon Link"). It's the book I reference throughout the
-guide and is truly a fantastic book.
+spend some money. You'll need to purchase [Learning iOS Development: A Hands-on
+Guide to the Fundamentals of iOS Programming](http://www.amazon.com/Learning-iOS-Development-Hands--Fundamentals/dp/0321862961/ref=sr_1_1?ie=UTF8&qid=1387385220&sr=8-1&keywords=learning+ios+development)
+ for a few of the items in this guide. It's an incredible book and it has been
+updated for iOS 7/Xcode 5.
 
 Thoughts
 --------
@@ -120,6 +121,52 @@ It's pretty simple. Raise a github issue or fork and submit a pull request with
 your requested changes.
 
 
+Command Line and Git
+====================
+
+Before starting all of this, you *need* to be familiar with the command line
+and git. The command line is the way you'll interact with your computer as a
+developer. Yes, it's a bit different but don't worry, I promise you'll
+understand it soon! Git is a system for version control. Check out the links
+below for more information. 
+
+Check out Web Developement Prework on the [Command Line](http://prework.flatironschool.com/#command-line)
+and [Git](http://prework.flatironschool.com/#git)
+
+
+Objective-C
+===========
+Objective-C is the language of iOS and it is most likely pretty different than
+what you've done before. To get started you just need a bit of knowledge of
+Objective-C, but to really master iOS development you need to get a solid
+understanding of the language. The best Rails developers are also the best Ruby
+developers. The same is true in the Objective-C/iOS world.
+
+###App
+Try and write a todo list app with just `NSLog` results
+
+###Learning Objectives
+  - Message passing with Objective-C
+  - Comfort with the syntax of Objective-C
+  - Understanding basic Objects. Instance variabales, Methods, The `super`
+    keyword, etc.
+  - Working with Data Types
+
+Beginner
+--------
+  - [Intro to Objective-C](http://rypress.com/tutorials/objective-c/introduction.html)
+  - [Try Objective-C on Code School](http://tryobjectivec.codeschool.com/)
+  - Chapter 2 in Learning iOS Development
+
+Advanced
+---------
+  - Programming in Objective-C (5th Edition)
+    - Yup it's an entire book on Objective-C. It's a great reference book and
+      will make you an expert in Objective-C.
+  - [Programming With
+    Objective-C](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+    "Programming With Objective-C")
+
 Basic iOS
 =========
 
@@ -141,56 +188,17 @@ Super simple ToDo list app. It should have a table with todos in it.
 Beginner
 --------
 
-  - [Beginning Storyboard in iOS
-    5](http://www.raywenderlich.com/5138/beginning-storyboards-in-ios-5-part-1 "Beginning Storyboards in iOS 5")
-      - Learn how storyborads work. This is a great way to get up and running
-        writing an app super quickly
-  - Big Nerd Ranch Chapter 1
-  - Big Nerd Ranch Chapter 3
-  - Big Nerd Ranch Chapter pages 91-100
+  - [Try iOS on Code School](https://www.codeschool.com/courses/try-ios)
+    - Great Introduction to iOS and the view infrastructure
+  - Chapter 3 in Learning iOS Development
+  - [Working with NSUserDefaults](http://mobile.tutsplus.com/tutorials/iphone/nsuserdefaults_iphone-sdk/)
 
 Advanced
 ---------
-  - BNR Chapter 8
-
-Objective-C
-===========
-Objective-C is the language of iOS and it is most likely pretty different than
-what you've done before. To get started you just need a bit of knowledge of
-Objective-C, but to really master iOS development you need to get a solid
-understanding of the language. The best Rails developers are also the best Ruby
-developers. The same is true in the Objective-C/iOS world.
-
-###App
-Try and rewrite your Todo list using objects and encapsulation.
-
-###Learning Objectives
-  - Message passing with Objective-C
-  - Comfort with the syntax of Objective-C
-  - Understanding basic Objects. Instance variabales, Methods, The `super`
-    keyword, etc.
-
-Beginner
---------
-  - [Intro to Objective-C](http://rypress.com/tutorials/objective-c/introduction.html)
-    - Read through the protocols section
-    - Read the Data Types Section
-  - Big Nerd Ranch Chapter 2
-
-Advanced
----------
-  - Programming in Objective-C (5th Edition)
-    - Yup it's an entire book on Objective-C. It's a great reference book and
-      will make you an expert in Objective-C.
-  - Big Nerd Ranch Chapter 27
-  - [Programming With
-    Objective-C](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
-    "Programming With Objective-C")
+  - Chapter 13 in Learning iOS Development
 
 
-
-
-Object Orientated Principles
+Object Oriented Principles
 =============
 
 The iOS ecosystem relies heavily on a few Object Orientated principles. The
@@ -230,138 +238,36 @@ Advanced
  - [Cocoa Design
     Fundementals](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CocoaFundamentals/CocoaDesignPatterns/CocoaDesignPatterns.html#//apple_ref/doc/uid/TP40002974-CH6-SW6 "Cocoa Design Fundementals Website")
 
-Core Data
-=========
-
-Core Data is a persistent data store. It is not a database. This is seriously
-one of the most confusing technologies in the iOS ecosystem, but it is
-something *you must learn*. In the integrating with APIs section you'll learn
-even more about Core Data and how to save both locally and sync up to the
-cloud. Think about all of the apps you use. Most of them can be boiled to down
-to displaying some data that is synced to a service.
-
-###App
-Try and save your ToDos locally using CoreData. 
-
-###Learning Objectives
-  - Understand how read and write data from the NSManagedObjectContext
-  - Persistant CoreData to the device using sqlite3
-  - Work with CoreData with TableViews
-  - Autogenerate, and extend CoreData Model files
-  - Generally wrap your head around the moving parts in CoreData. BNR Chapter
-    16 is great for this.
-
-Beginner
---------
-
-  - BNR Chapter 16
-  - [Core Data Tutorial for iOS: Getting
-    Started](http://www.raywenderlich.com/934/core-data-tutorial-for-ios-getting-started "Core Data Tutorial for iOS: Getting Started")
-    - Practical example on how make a Core Data app. Make sure you read all three parts. The NSFetchedResultsController part
-      is super important and how you connect Core Data to UITableViews.
-
-Advanced
---------
-  - [Pro Core Data for
-    iOS](http://www.amazon.com/Pro-Core-Data-Second-Edition/dp/1430236566/ref=pd_sim_b_26 "Pro Core Data For iOS")
-    - Told you it was a big topic.
-
-Libraries
----------
-
-  - [MagicalRecord](https://github.com/magicalpanda/MagicalRecord "Magical
-    Record GitHub Page")
-    - Library that automates a lot of the common CoreData stuff and implements
-      some best practices.
-
-
-Reference
----------
-
-  - [Core Data Quickie](http://borkware.com/quickies/one?topic=Core%20Data
-    "Core Data Quickies")
-
-Integrating with APIs and Social Media
+Using Common UI Tools
 =====================
-Nothing exists in a vacuum. Apps are expected to share effortlessly and backup
-to the cloud. The beginner section has some of the super simple stuff and is
-all you really need to get started. The [Helios](http://helios.io/ "Helios Home
-Page") tutorial shows you how to create a *super simple* server side backend
-for your iOS app. This is really the absolute simlpest possible solution to
-  syncing your app with the internet
 
-I'm purposefully exposing you to the native iOS SDK networking stack before
-AFNetworking and the other libraries. It's *very* hard to debug problems with
-the libraries if you don't understand the underlying technologies.
+iOS comes with a bunch of common UI objects that get you going quickly. As you
+learn about things such as `UINavigationController` and `UITableView` you'll
+realize that nearly *every* app utilizes modifications on these simple UI
+controls. Let's learn these!
 
-Also this has an intermediate section just because this topic is so massive.
-Still stick to the beginner information at first though.
+### App
+Implement your ToDo List app as a UITableView and tapping on each itme should
+go to a detail view in the nav controller
 
-###App
-Add server side syncing to your ToDo list app. Also try and share todos on
-Twitter/facebook
-
-###Learning Objectives
-  - Ability to set up and use Helios
-  - Understand SLComposeViewController
-
+### Learning Objectives
+  - Understand what pushing a ViewController means
+  - Working with `UITableViewDataSource` methods
+  - Working with UITableviews Dynamically and Statically
 
 Beginner
 --------
 
-  - [Mattt Thompson: Build an iOS App in 20 Minutes with Rails and
-    AFIncrementalStore](https://www.youtube.com/watch?v=8wrFn6flYdQ "Youtube
-    Video of a Mattt Thompson Talk on using Helios")
-      - Video from a recent conference where Mattt Thompson walks you through
-        developing a simple ToDo app with a server side backedn
-  - [Integrate Twitter and Facebook Sharing in Your
-    App](http://www.appcoda.com/ios-programming-101-integrate-twitter-and-facebook-sharing-in-ios-6/
-    "Integrate Twitter and Facebook Sharing in Your App")
-      - These are built in to iOS. This tutorial allows you to share your
-        content really quickly to Facebook and Twitter
-
-Intermediate
-------------
-  - [Subclassing
-    UIActivity](http://blog.goosoftware.co.uk/2013/05/04/subclassing-uiactivity/ "Subclassing UIActivity Video")
-  - [Building an iOS app with AFIncrementalStore and Core Data Buildpack](https://devcenter.heroku.com/articles/ios-core-data-buildpack-app "Heroku Article on Core Data Buildpack") - This is the howto for Helios
-  - BNR Chapter 25
-  - BNR Chapter 28 (skip everything on designing an rss parser)
-  - [Getting Started with the Facebook
-    SDK](https://developers.facebook.com/docs/tutorials/ios-sdk-tutorial/show-friends/
-    "Getting Started with the facebok SDK")
-  - [Sharing Providers for UIActivity](http://uiactivities.com/ "UIActivities
-    Home Page")]
+  - Chapter 7 of Learning iOS Development
+  - Chapter 8 of Learning iOS Development
 
 Advanced
 --------
 
-  - BNR Chapter 29
-  - [Developing RESTful Apps with
-    RestKit](http://mobile.tutsplus.com/tutorials/iphone/restkit_ios-sdk/
-    "Developing RESTful Apps With RestKit")
-  - [Networking made easy with
-    AFNetworking](http://mobile.tutsplus.com/tutorials/iphone/ios-sdk_afnetworking/)
-  - [AFNetworking and
-  Caching](http://cleveryou.net/post/51558182158/afnetworking-caching-guide)
-
-Libraries
----------
-
-  - [AFNetworking](https://github.com/AFNetworking/AFNetworking "AFNetworking
-    Github Page")
-  - [Helios](http://helios.io/ "Helios Home Page")
-  - [RestKit](http://restkit.org/ "RestKit Home Page")
-
-Social Media SDKs
------------------
-
-  - [Foursquare](https://github.com/baztokyo/foursquare-ios-api "Foursquare API
-    SDK")
-  - [Dropbox](https://www.dropbox.com/developers/sync/start/ios "Dropbox Sync SDK")
-  - [Twitter](https://dev.twitter.com/docs/ios "Twitter iOS SDK")
-  - [Facebook](https://developers.facebook.com/ios/ "Facebook iOS SDK")
-  - [Instagram](https://github.com/crino/instagram-ios-sdk "Instagram iOS SDK")
+  - Chapter 10 of Learning iOS Development
+  - Chapter 11 of Learning iOS Development
+  - [Beginning UICollectionView in iOS 6](http://www.raywenderlich.com/22324/beginning-uicollectionview-in-ios-6-part-12)
+    - Still based of of iOS 6 but *very* relevant
 
 
 Core Location/MapKit
@@ -394,8 +300,11 @@ groceries at the grocery store.
 Beginner
 --------
 
-  - Big Nerd Ranch 88-92
-  - Big Nerd Ranch Chapter 5
+  - [iOS 6 Core Location Tutorial](http://www.devfright.com/ios-6-core-location-tutorial/)
+    - There was a big change in `CoreLocation` from iOS 5-> iOS 6. This is an
+      updated tutorial
+  - [Intro to MapKit in iOS 6](http://www.raywenderlich.com/21365/introduction-to-mapkit-in-ios-6-tutorial)
+
 
 Advanced
 --------
@@ -408,30 +317,6 @@ Advanced
   - [Google Maps
     CocoaPod](https://github.com/CocoaPods/Specs/tree/master/GoogleMapsKit
     "Google Maps CocoaPod Github Page")
-
-Mobile Design
-=============
-Different screen size and interactions require different thoughts on design.
-Below are two fantastic resources, but there is always more. 
-
-###App
-Do some mockups with paper and pencil on how you cauld enhance the interface.
-In the next section you'll actually code them. 
-
-###Learning Objectives
-  - Familiarity with the "Apple way" of designing mobile apps.
-  - Differences between web design and mobile design
-Beginner
---------
-
-  - [Apple Human Interface
-    Guidelines](http://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html "Apple Human Interface Guidelines")
-      - Apple posts thei guidelines on good mobile design. You should follow
-        these somewhat closely as it provides a consistant UI from app to app
-  - [Starter's Guide to iOS
-    Design](http://taybenlor.com/2013/05/21/designing-for-ios.html "Starter's
-    Guide to iOS Design")
-      - Absolutely incredible guide on how to think about mobile design.
 
 
 Customizing UIKit
@@ -472,21 +357,163 @@ Beginner
   - [Customizing
     UIKit](http://mobile.tutsplus.com/tutorials/iphone/ios-sdk-uikit-theme-customization/ "Customizing UIKit")
       - Some common UIKit customziations and how to do them.
-  - Big Nerd Ranch Chapter 24
-  - Big Nerd Ranch Chapter 6
-  - Big Nerd Ranch Chapter 7
-  - Big Nerd Ranch Chapter 9
-  - Big Nerd Ranch Chapter 10
-  - Big Nerd Ranch Chapter 11
+  - [Customizing Nav Bar and Status Bar in iOS 7](http://www.appcoda.com/customize-navigation-status-bar-ios-7/)
 
 Advanced 
 ---------
 
-  - Big Nerd Ranch Chapter 19
-  - Big Nerd Ranch Chapter 20
-  - Big Nerd Ranch Chapter 26
-  - Big Nerd Ranch Chapter 13
-  - Big Nerd Ranch Chapter 15
+  - Chapter 6 in Learning iOS Development
+
+Mobile Design
+=============
+Different screen size and interactions require different thoughts on design.
+Below are two fantastic resources, but there is always more. 
+
+###App
+Do some mockups with paper and pencil on how you cauld enhance the interface.
+In the next section you'll actually code them. 
+
+###Learning Objectives
+  - Familiarity with the "Apple way" of designing mobile apps.
+  - Differences between web design and mobile design
+Beginner
+--------
+
+  - [Apple Human Interface
+    Guidelines](http://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html "Apple Human Interface Guidelines")
+      - Apple posts thei guidelines on good mobile design. You should follow
+        these somewhat closely as it provides a consistant UI from app to app
+  - [Starter's Guide to iOS
+    Design](http://taybenlor.com/2013/05/21/designing-for-ios.html "Starter's
+    Guide to iOS Design")
+      - Absolutely incredible guide on how to think about mobile design.
+
+
+ADVANCED TOPICS
+===============
+
+Below are a bunch of advanced topics that you should learn about but aren't
+required for Flatiron School Students.
+
+Integrating with APIs and Social Media
+=====================
+Nothing exists in a vacuum. Apps are expected to share effortlessly and backup
+to the cloud. The beginner section has some of the super simple stuff and is
+all you really need to get started. The [Helios](http://helios.io/ "Helios Home
+Page") tutorial shows you how to create a *super simple* server side backend
+for your iOS app. This is really the absolute simlpest possible solution to
+  syncing your app with the internet
+
+I'm purposefully exposing you to the native iOS SDK networking stack before
+AFNetworking and the other libraries. It's *very* hard to debug problems with
+the libraries if you don't understand the underlying technologies.
+
+Also this has an intermediate section just because this topic is so massive.
+Still stick to the beginner information at first though.
+
+###App
+Add server side syncing to your ToDo list app. Also try and share todos on
+Twitter/facebook
+
+###Learning Objectives
+  - Ability to set up and use Helios
+  - Understand SLComposeViewController
+
+Intermediate
+------------
+  - [Mattt Thompson: Build an iOS App in 20 Minutes with Rails and
+    AFIncrementalStore](https://www.youtube.com/watch?v=8wrFn6flYdQ "Youtube
+    Video of a Mattt Thompson Talk on using Helios")
+      - Video from a recent conference where Mattt Thompson walks you through
+        developing a simple ToDo app with a server side backedn
+  - [Integrate Twitter and Facebook Sharing in Your
+    App](http://www.appcoda.com/ios-programming-101-integrate-twitter-and-facebook-sharing-in-ios-6/
+    "Integrate Twitter and Facebook Sharing in Your App")
+      - These are built in to iOS. This tutorial allows you to share your
+        content really quickly to Facebook and Twitter
+  - [Subclassing
+    UIActivity](http://blog.goosoftware.co.uk/2013/05/04/subclassing-uiactivity/ "Subclassing UIActivity Video")
+  - [Building an iOS app with AFIncrementalStore and Core Data Buildpack](https://devcenter.heroku.com/articles/ios-core-data-buildpack-app "Heroku Article on Core Data Buildpack") - This is the howto for Helios
+  - [Getting Started with the Facebook
+    SDK](https://developers.facebook.com/docs/tutorials/ios-sdk-tutorial/show-friends/
+    "Getting Started with the facebok SDK")
+  - [Sharing Providers for UIActivity](http://uiactivities.com/ "UIActivities
+    Home Page")]
+
+Advanced
+--------
+
+  - [Developing RESTful Apps with
+    RestKit](http://mobile.tutsplus.com/tutorials/iphone/restkit_ios-sdk/
+    "Developing RESTful Apps With RestKit")
+  - [Networking made easy with
+    AFNetworking](http://mobile.tutsplus.com/tutorials/iphone/ios-sdk_afnetworking/)
+  - [AFNetworking and
+  Caching](http://cleveryou.net/post/51558182158/afnetworking-caching-guide)
+
+Libraries
+---------
+
+  - [AFNetworking](https://github.com/AFNetworking/AFNetworking "AFNetworking
+    Github Page")
+  - [Helios](http://helios.io/ "Helios Home Page")
+  - [RestKit](http://restkit.org/ "RestKit Home Page")
+
+Social Media SDKs
+-----------------
+
+  - [Foursquare](https://github.com/baztokyo/foursquare-ios-api "Foursquare API
+    SDK")
+  - [Dropbox](https://www.dropbox.com/developers/sync/start/ios "Dropbox Sync SDK")
+  - [Twitter](https://dev.twitter.com/docs/ios "Twitter iOS SDK")
+  - [Facebook](https://developers.facebook.com/ios/ "Facebook iOS SDK")
+  - [Instagram](https://github.com/crino/instagram-ios-sdk "Instagram iOS SDK")
+
+Core Data
+=========
+
+Core Data is a persistent data store. It is not a database. This is seriously
+one of the most confusing technologies in the iOS ecosystem, but it is
+something *you must learn*. In the integrating with APIs section you'll learn
+even more about Core Data and how to save both locally and sync up to the
+cloud. Think about all of the apps you use. Most of them can be boiled to down
+to displaying some data that is synced to a service.
+
+###App
+Try and save your ToDos locally using CoreData. 
+
+###Learning Objectives
+  - Understand how read and write data from the NSManagedObjectContext
+  - Persistant CoreData to the device using sqlite3
+  - Work with CoreData with TableViews
+  - Autogenerate, and extend CoreData Model files
+    16 is great for this.
+
+Advanced
+--------
+  - Chapter 9 of Learning iOS Development
+  - [Pro Core Data for
+    iOS](http://www.amazon.com/Pro-Core-Data-Second-Edition/dp/1430236566/ref=pd_sim_b_26 "Pro Core Data For iOS")
+    - Told you it was a big topic.
+  - [Core Data Tutorial for iOS: Getting
+    Started](http://www.raywenderlich.com/934/core-data-tutorial-for-ios-getting-started "Core Data Tutorial for iOS: Getting Started")
+    - Practical example on how make a Core Data app. Make sure you read all three parts. The NSFetchedResultsController part
+      is super important and how you connect Core Data to UITableViews.
+
+Libraries
+---------
+
+  - [MagicalRecord](https://github.com/magicalpanda/MagicalRecord "Magical
+    Record GitHub Page")
+    - Library that automates a lot of the common CoreData stuff and implements
+      some best practices.
+
+
+Reference
+---------
+
+  - [Core Data Quickie](http://borkware.com/quickies/one?topic=Core%20Data
+    "Core Data Quickies")
 
 
 Hardware
@@ -503,10 +530,9 @@ Add the ability to add pictures to your app.
   - Change hardware behavior based on hardware availability
   - Use the accelerometer and gyro
 
-Beginner
+Advanced
 --------
 
-  - BNR Chapter 12
   - [Using Core Motion to Access Gyro and Accelerometer](http://nscookbook.com/2013/03/ios-programming-recipe-19-using-core-motion-to-access-gyro-and-accelerometer/ "iOS Programming Recipe 19: Using Core Motion to Access Gyro and Accelerometer")
 
 
@@ -527,23 +553,17 @@ mark a task as done.
   - Understand how the contexts and layers of core animation work
   - Know when to use the correct transitions for different interactions.
 
-Beginner
---------
-
-  - [UIView Transition
-    Effects](http://i.ndigo.com.br/2012/05/ios-uiview-transition-effects/ "UI
-    Transition Effects")
-      - Learn the different ways you can transition form view to view and the
-        reasons why you choose those transitions.
-  - BNR Chapter 22
-  - BNR Chapter 23
-
 Advanced
 --------
 
   - [Graphics And Animation on
     iOS](http://shop.oreilly.com/product/0636920020356.do "Graphics and
     Animation on iOS")
+  - [UIView Transition
+    Effects](http://i.ndigo.com.br/2012/05/ios-uiview-transition-effects/ "UI
+    Transition Effects")
+      - Learn the different ways you can transition form view to view and the
+        reasons why you choose those transitions.
 
 Xcode
 =====
@@ -561,3 +581,4 @@ Advanced
   - [XVim](https://github.com/JugglerShu/XVim "XVim") 
     - I use vim on the command line. If you're like me, this will make your life
       so. much. better
+  - Chapter 14 in Learning iOS Development
