@@ -43,7 +43,7 @@ all the topics. This should get you up to speed with iOS development and really
 I would just start writing code! Don't start looking into the advanced topics
 until you find a topic you *need* to learn.
 
-The Advanced and Referece/Library sections are for you to use once your feel
+The Advanced and Reference/Library sections are for you to use once your feel
 comfortable with your skills. I really recommend completing all the beginner 
 materials before moving on to the advanced resources though. Once you look into
 developing apps that require the topics you can return here and find out more
@@ -148,7 +148,7 @@ Try and write a todo list app with just `NSLog` results
 ###Learning Objectives
   - Message passing with Objective-C
   - Comfort with the syntax of Objective-C
-  - Understanding basic Objects. Instance variabales, Methods, The `super`
+  - Understanding basic Objects. Instance variables, Methods, The `super`
     keyword, etc.
   - Working with Data Types
 
@@ -201,7 +201,7 @@ Advanced
 Object Oriented Principles
 =============
 
-The iOS ecosystem relies heavily on a few Object Orientated principles. The
+The iOS ecosystem relies heavily on a few Object Oriented principles. The
 beginner items covers the stuff that is somewhat unique to iOS. Going further
 you will see these patterns *everywhere*. 
 
@@ -217,8 +217,7 @@ Beginner
 --------
 
   - [iOS Design Patterns:
-    Delegation](http://blog.teamtreehouse.com/ios-design-patterns-delegation-part-2-2
-      - Learn the Delegation Pattern. This is used all over the place in iOS.
+    Delegation](http://blog.teamtreehouse.com/ios-design-patterns-delegation-part-2-2 - Learn the Delegation Pattern. This is used all over the place in iOS.
         For example Core Location, TableViews, MapKit, etc.
     "iOS Design Patters: Delegations")
   - [Intro to
@@ -342,7 +341,7 @@ Implement your ideas from the design section. You may have to pare down your
 ideas a bit.
 
 ###Learning Objectives
-  - Be able to style the color/size of major UITableView,UINavigationView and
+  - Be able to style the color/size of major UITableView, UINavigationView and
     UITabBar
   - Understand how Views interact with View Controllers
   - Understand the View lifecycle
@@ -381,7 +380,7 @@ Beginner
 
   - [Apple Human Interface
     Guidelines](http://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html "Apple Human Interface Guidelines")
-      - Apple posts thei guidelines on good mobile design. You should follow
+      - Apple posts their guidelines on good mobile design. You should follow
         these somewhat closely as it provides a consistant UI from app to app
   - [Starter's Guide to iOS
     Design](http://taybenlor.com/2013/05/21/designing-for-ios.html "Starter's
@@ -401,7 +400,7 @@ Nothing exists in a vacuum. Apps are expected to share effortlessly and backup
 to the cloud. The beginner section has some of the super simple stuff and is
 all you really need to get started. The [Helios](http://helios.io/ "Helios Home
 Page") tutorial shows you how to create a *super simple* server side backend
-for your iOS app. This is really the absolute simlpest possible solution to
+for your iOS app. This is really the absolute simplest possible solution to
   syncing your app with the internet
 
 I'm purposefully exposing you to the native iOS SDK networking stack before
