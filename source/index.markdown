@@ -386,6 +386,8 @@ Beginner
     Design](http://taybenlor.com/2013/05/21/designing-for-ios.html "Starter's
     Guide to iOS Design")
       - Absolutely incredible guide on how to think about mobile design.
+  - [iOS 7 Icon Template](http://ios.robs.im "iOS 7 Icon Template")
+      - Edit-once iOS 7 Icon Template for Photoshop
 
 
 ADVANCED TOPICS
