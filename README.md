@@ -1,5 +1,5 @@
 This is the source repository for [iOS
-Prework](http://iosprework.flatironschool.com) at The Flatiron School. Enjoy!
+Prework](http://prework.flatironschool.com/ios-development/) at The Flatiron School. Enjoy!
 
 License
 =======
